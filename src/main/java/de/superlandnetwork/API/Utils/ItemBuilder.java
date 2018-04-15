@@ -4,7 +4,7 @@
 // |___/ | .__/ |_| \__, | \___/  \__| /_/ \_\ |_|   |___|
 //       |_|        |___/                                 
 //
-// Copyright (C) Filli-IT (Einzelunternehmen) & Ursin Filli - All Rights Reserverd
+// Copyright (C) 2017 - 2018 Filli IT (Einzelunternehmen) & Ursin Filli - All Rights Reserverd
 // Unauthorized copying of the this file, via any medium is strictly prohibited
 // Proprietary and confidential
 // Written by Ursin Filli <ursin.filli@Filli-IT.ch>
@@ -25,7 +25,6 @@ public class ItemBuilder {
 	 * @param name
 	 * @return ItemStack
 	 */
-	@SuppressWarnings("deprecation")
 	public ItemStack getSkinnedHead(String name) {
 		ItemStack item = new ItemStack(Material.SKULL_ITEM, 1, (short) 3);
 		SkullMeta meta = (SkullMeta) item.getItemMeta();
@@ -40,7 +39,6 @@ public class ItemBuilder {
 	 * @param Owner
 	 * @return ItemStack
 	 */
-	@SuppressWarnings("deprecation")
 	public ItemStack getSkinnedHead(String name, String Owner) {
 		ItemStack item = new ItemStack(Material.SKULL_ITEM, 1, (short) 3);
 		SkullMeta meta = (SkullMeta) item.getItemMeta();
@@ -55,7 +53,6 @@ public class ItemBuilder {
 	 * @param Owner
 	 * @return ItemStack
 	 */
-	@SuppressWarnings("deprecation")
 	public ItemStack getSkinnedHead(String name, String Owner, ArrayList<String> list) {
 		ItemStack item = new ItemStack(Material.SKULL_ITEM, 1, (short) 3);
 		SkullMeta meta = (SkullMeta) item.getItemMeta();
